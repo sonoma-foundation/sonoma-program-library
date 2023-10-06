@@ -116,7 +116,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         .value_name("FILENAME")
                         .required(true)
                         .default_value("feature-proposal.csv")
-                        .help("Allocations CSV file for use with solana-tokens"),
+                        .help("Allocations CSV file for use with sonoma-tokens"),
                 )
                 .arg(
                     Arg::with_name("confirm")
@@ -337,18 +337,18 @@ fn process_propose(
     println!();
     println!("Distribute the proposal tokens to all validators by running:");
     println!(
-        "    $ solana-tokens distribute-spl-tokens \
+        "    $ sonoma-tokens distribute-spl-tokens \
                   --from {} \
                   --input-csv {} \
                   --db-path db.{} \
-                  --fee-payer ~/.config/solana/id.json \
+                  --fee-payer ~/.config/sonoma/id.json \
                   --owner <FEATURE_PROPOSAL_KEYPAIR>",
         distributor_token_address,
         distribution_file,
         &feature_proposal_keypair.pubkey().to_string()[..8]
     );
     println!(
-        "    $ solana-tokens spl-token-balances \
+        "    $ sonoma-tokens spl-token-balances \
                  --mint {} --input-csv {}",
         mint_address, distribution_file
     );

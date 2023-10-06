@@ -282,7 +282,7 @@ impl<'a> Config<'a> {
         } else {
             Err("default signer is required, please specify a valid default signer by identifying a \
                  valid configuration file using the --config-file argument, or by creating a valid \
-                 config at the default location of ~/.config/solana/cli/config.yml using the solana \
+                 config at the default location of ~/.config/sonoma/cli/config.yml using the sonoma \
                  config command".to_string().into())
         }
     }
@@ -294,8 +294,8 @@ impl<'a> Config<'a> {
         } else {
             Err("fee payer is required, please specify a valid fee payer using the --fee_payer argument, \
                  or by identifying a valid configuration file using the --config-file argument, or by \
-                 creating a valid config at the default location of ~/.config/solana/cli/config.yml using \
-                 the solana config command".to_string().into())
+                 creating a valid config at the default location of ~/.config/sonoma/cli/config.yml using \
+                 the sonoma config command".to_string().into())
         }
     }
 
