@@ -2468,8 +2468,8 @@ fn app<'a, 'b>(
                 .global(true)
                 .validator(is_url_or_moniker)
                 .help(
-                    "URL for Solana's JSON RPC or moniker (or their first letter): \
-                       [mainnet-beta, testnet, devnet, localhost] \
+                    "URL for Sonoma's JSON RPC or moniker (or their first letter): \
+                       [testnet, localhost] \
                     Default from the configuration file."
                 ),
         )
