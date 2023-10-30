@@ -2920,11 +2920,11 @@ dependencies = [
 
 [[package]]
 name = "num_enum"
-version = "0.6.1"
+version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a015b430d3c108a207fd776d2e2196aaf8b1cf8cf93253e3a097ff3085076a1"
+checksum = "683751d591e6d81200c39fb0d1032608b77724f34114db54f571ff1317b337c0"
 dependencies = [
- "num_enum_derive 0.6.1",
+ "num_enum_derive 0.7.1",
 ]
 
 [[package]]
@@ -2941,9 +2941,9 @@ dependencies = [
 
 [[package]]
 name = "num_enum_derive"
-version = "0.6.1"
+version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96667db765a921f7b295ffee8b60472b686a51d4f21c2ee4ffdb94c7013b65a6"
+checksum = "6c11e44798ad209ccdd91fc192f0526a369a01234f7373e1b141c96d7cee4f0e"
 dependencies = [
  "proc-macro-crate 1.3.1",
  "proc-macro2 1.0.68",
@@ -6466,7 +6466,7 @@ dependencies = [
 name = "spl-instruction-padding"
 version = "0.1.0"
 dependencies = [
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "solana-program 1.14.12",
  "solana-program-test",
  "solana-sdk 1.14.12",
@@ -6575,7 +6575,7 @@ dependencies = [
  "mpl-token-metadata",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "solana-program 1.14.12",
  "spl-associated-token-account 1.1.3",
  "spl-token 3.5.0",
@@ -6592,7 +6592,7 @@ dependencies = [
  "mpl-token-metadata",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "proptest",
  "serde",
  "serde_derive",
@@ -6639,7 +6639,7 @@ dependencies = [
  "bytemuck",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "solana-program 1.14.12",
  "solana-program-test",
  "solana-sdk 1.14.12",
@@ -6656,7 +6656,7 @@ dependencies = [
  "lazy_static",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "proptest",
  "serial_test",
  "solana-program 1.14.12",
@@ -6707,7 +6707,7 @@ dependencies = [
  "lazy_static",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "proptest",
  "serde",
  "serde_json",
@@ -6864,7 +6864,7 @@ version = "0.1.1"
 dependencies = [
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "solana-program 1.14.12",
  "solana-program-test",
  "solana-sdk 1.14.12",
@@ -6920,7 +6920,7 @@ dependencies = [
  "bytemuck",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "solana-program 1.14.12",
  "spl-tlv-account-resolution",
  "spl-type-length-value",
@@ -6936,7 +6936,7 @@ dependencies = [
  "bytemuck",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.1",
  "solana-program 1.14.12",
  "thiserror",
 ]
